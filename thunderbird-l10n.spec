@@ -1,9 +1,9 @@
-%define thunderbird_package mozilla-thunderbird
-%define oname   mozilla-thunderbird
+%define thunderbird_package thunderbird
+%define oname thunderbird
 
 %if %mandriva_branch == Cooker
 # Cooker
-%define release 2
+%define release 1
 %else
 # Old distros
 %define subrel 1
