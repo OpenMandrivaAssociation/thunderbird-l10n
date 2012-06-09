@@ -173,7 +173,7 @@
 
 Summary: Localizations for Thunderbird (virtual package)
 Name: %{oname}-l10n
-Version: 12.0.1
+Version: 13.0
 Release: %{release}
 License: GPL
 Group: Networking/WWW
