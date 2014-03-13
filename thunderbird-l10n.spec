@@ -27,7 +27,7 @@
 %define disabled_langlist gu_IN mk sr af rm
 
 # Disabled myspell dicts, for any reason
-%define disabled_dict_langlist	ar be br_FR es_AR eu fi fy ga gu_IN he ja ko mk pa_IN tr zh_CN zh_TW
+%define disabled_dict_langlist	ar be br_FR es_AR eu fi fy ga gu_IN he ja ko mk pa_IN rm tr zh_CN zh_TW
 
 %define use_dict 0
 
