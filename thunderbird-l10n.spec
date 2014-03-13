@@ -184,6 +184,7 @@ BuildArch:	noarch
 BuildRequires:	libxml2-utils
 # Language package template
 Source0:	%{name}-template.in
+Source100:	%{name}.rpmlintrc
 Patch0:		xml-validation.patch
 # l10n sources
 %{expand:%(\
