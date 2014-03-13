@@ -6,7 +6,7 @@ Group: Networking/WWW
 Url: http://www.mozilla.org/products/thunderbird/
 # Work-around for rpmlint
 Buildroot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-Requires: %{thunderbird_package} = %{thunderbird_epoch}:%{thunderbird_version}
+Requires: %{oname} = %{version}
 Requires: locales-%{locale___LANG__}
 %if %{with_dict___LANG__}
  %if __LANG__ == de
