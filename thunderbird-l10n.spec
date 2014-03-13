@@ -1,3 +1,5 @@
+%define debug_package %{nil}
+
 %define thunderbird_package thunderbird
 %define oname thunderbird
 
@@ -12,7 +14,7 @@
 
 %define up_ca_name	thunderbird
 %define libname		%{up_ca_name}-%{version}
-%define mozillalibdir	%{_libdir}/%libname
+%define mozillalibdir	%{_libdir}/%{libname}
 %define tb_appid \{3550f703-e582-4d05-9a08-453d09bdfdc6\}
 %define tbextdir	%{_datadir}/mozilla/extensions/%{tb_appid}
 
@@ -171,18 +173,18 @@
 %define myspell_fr myspell-fr_FR
 %endif
 
-Summary: Localizations for Thunderbird (virtual package)
-Name: %{oname}-l10n
-Version: 14.0
-Release: %{release}
-License: GPL
-Group: Networking/WWW
-Url: http://www.mozilla.org/
-BuildArch: noarch
-BuildRequires: libxml2-utils
+Summary:	Localizations for Thunderbird (virtual package)
+Name:		%{oname}-l10n
+Version:	24.3.0
+Release:	%{release}
+License:	GPL
+Group:		Networking/WWW
+Url:		http://www.mozilla.org/
+BuildArch:	noarch
+BuildRequires:	libxml2-utils
 # Language package template
-Source0: %{name}-template.in
-Patch0: xml-validation.patch
+Source0:	%{name}-template.in
+Patch0:		xml-validation.patch
 # l10n sources
 %{expand:%(\
 	i=1;\
@@ -204,7 +206,7 @@ Patch0: xml-validation.patch
 %endif
 
 %description
-Localizations for Thunderbird
+Localizations for Thunderbird.
 
 # Expand all languages packages.
 %{expand:%(\
