@@ -21,10 +21,10 @@
 %define xpidir http://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/%{version}/linux-i686/xpi/
 
 # Supported l10n language lists
-%define langlist ar ast be bg bn_BD br ca cs da de el en_GB en_US es_AR es_ES et eu fi fr fy ga gd gl he hr hu hy id is it ja ko lt nb_NO nl nn_NO pa_IN pl pt_BR pt_PT rm ro ru si sk sl sq sr sv_SE ta_LK tr uk vi zh_CN zh_TW
+%define langlist ar ast be bg bn_BD br ca cs da de el en_GB en_US es_AR es_ES et eu fi fr fy ga gd gl he hr hu hy id is it ja ko lt nb_NO nl nn_NO pa_IN pl pt_BR pt_PT ro ru si sk sl sq sr sv_SE ta_LK tr uk vi zh_CN zh_TW
 
 # Disabled l10n languages, for any reason
-%define disabled_langlist gu_IN mk sr af
+%define disabled_langlist gu_IN mk sr af rm
 
 # Disabled myspell dicts, for any reason
 %define disabled_dict_langlist	ar be br_FR es_AR eu fi fy ga gu_IN he ja ko mk pa_IN tr zh_CN zh_TW
