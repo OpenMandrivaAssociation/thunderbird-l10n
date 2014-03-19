@@ -175,7 +175,7 @@
 
 Summary:	Localizations for Thunderbird (virtual package)
 Name:		%{oname}-l10n
-Version:	24.3.0
+Version:	24.4.0
 Release:	%{release}
 License:	GPL
 Group:		Networking/WWW
