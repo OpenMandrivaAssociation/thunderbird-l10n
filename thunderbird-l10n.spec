@@ -9,7 +9,7 @@
 %else
 # Old distros
 %define subrel 1
-%define release %mkrel 0
+%define release 1
 %endif
 
 %define up_ca_name	thunderbird
@@ -175,7 +175,7 @@
 
 Summary:	Localizations for Thunderbird (virtual package)
 Name:		%{oname}-l10n
-Version:	24.6.0
+Version:	24.7.0
 Release:	%{release}
 License:	GPL
 Group:		Networking/WWW
