@@ -3,15 +3,6 @@
 %define thunderbird_package thunderbird
 %define oname thunderbird
 
-%if %mandriva_branch == Cooker
-# Cooker
-%define release 1
-%else
-# Old distros
-%define subrel 1
-%define release 1
-%endif
-
 %define up_ca_name	thunderbird
 %define libname		%{up_ca_name}-%{version}
 %define mozillalibdir	%{_libdir}/%{libname}
@@ -175,8 +166,8 @@
 
 Summary:	Localizations for Thunderbird (virtual package)
 Name:		%{oname}-l10n
-Version:	24.7.0
-Release:	%{release}
+Version:	31.1.0
+Release:	1
 License:	GPL
 Group:		Networking/WWW
 Url:		http://www.mozilla.org/
