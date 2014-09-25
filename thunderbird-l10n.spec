@@ -166,7 +166,7 @@
 
 Summary:	Localizations for Thunderbird (virtual package)
 Name:		%{oname}-l10n
-Version:	31.1.1
+Version:	31.1.2
 Release:	1
 License:	GPL
 Group:		Networking/WWW
